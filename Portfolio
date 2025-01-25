@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha Singh - Java Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans">
+    <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://via.placeholder.com/150" alt="Sneha Singh" class="mx-auto rounded-full border-4 border-white">
+            <h1 class="text-4xl font-bold mt-4">Sneha Singh</h1>
+            <p class="text-lg">Java Developer | 3+ Years Experience | Building Secure Web Apps</p>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow sticky top-0">
+        <div class="container mx-auto px-4 flex justify-around py-3">
+            <a href="#about" class="text-gray-700 hover:text-blue-500">About</a>
+            <a href="#skills" class="text-gray-700 hover:text-blue-500">Skills</a>
+            <a href="#projects" class="text-gray-700 hover:text-blue-500">Projects</a>
+            <a href="#experience" class="text-gray-700 hover:text-blue-500">Experience</a>
+            <a href="#contact" class="text-gray-700 hover:text-blue-500">Contact</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <!-- About Section -->
+        <section id="about" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-6">About Me</h2>
+            <p class="text-lg text-gray-600 text-center">I am a dedicated Java Developer with over 3 years of experience in building secure web applications and backend services. Passionate about coding, problem-solving, and leveraging the latest technologies to deliver efficient solutions.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-6">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-white p-4 shadow rounded text-center">
+                    <p class="text-lg font-semibold">Java 8</p>
+                </div>
+                <div class="bg-white p-4 shadow rounded text-center">
+                    <p class="text-lg font-semibold">Spring Boot</p>
+                </div>
+                <div class="bg-white p-4 shadow rounded text-center">
+                    <p class="text-lg font-semibold">Hibernate</p>
+                </div>
+                <div class="bg-white p-4 shadow rounded text-center">
+                    <p class="text-lg font-semibold">MySQL</p>
+                </div>
+                <div class="bg-white p-4 shadow rounded text-center">
+                    <p class="text-lg font-semibold">HTML</p>
+                </div>
+                <div class="bg-white p-4 shadow rounded text-center">
+                    <p class="text-lg font-semibold">CSS</p>
+                </div>
+                <div class="bg-white p-4 shadow rounded text-center">
+                    <p class="text-lg font-semibold">REST API</p>
+                </div>
+                <div class="bg-white p-4 shadow rounded text-center">
+                    <p class="text-lg font-semibold">Microservices</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-6">Projects</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 shadow rounded">
+                    <h3 class="text-xl font-bold">National Electronic Funds Transfer</h3>
+                    <p class="text-gray-600">May 2024 - Oct 2024</p>
+                    <p class="mt-2">Designed backend services for fund transfers and implemented secure client-server communication using Java and Spring Boot.</p>
+                </div>
+                <div class="bg-white p-6 shadow rounded">
+                    <h3 class="text-xl font-bold">Alert Monitoring & Notification System</h3>
+                    <p class="text-gray-600">Nov 2023 - Apr 2024</p>
+                    <p class="mt-2">Developed a tracking and notification system using Spring Boot, with a focus on usability and scalability.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-6">Experience</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 shadow rounded">
+                    <h3 class="text-xl font-bold">Java Developer</h3>
+                    <p class="text-gray-600">Jalgi Technologies Pvt Ltd | Oct 2022 - Dec 2024</p>
+                    <p class="mt-2">Developed and maintained Java-based banking applications remotely.</p>
+                </div>
+                <div class="bg-white p-6 shadow rounded">
+                    <h3 class="text-xl font-bold">Java Developer Intern</h3>
+                    <p class="text-gray-600">Sun Chem (India) | Aug 2021 - Oct 2022</p>
+                    <p class="mt-2">Contributed to secure application design and Java-based projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+            <form class="max-w-lg mx-auto bg-white p-6 shadow rounded">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-bold">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-bold">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-bold">Message</label>
+                    <textarea id="message" rows="4" class="w-full p-2 border rounded"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Sneha Singh. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
